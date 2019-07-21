@@ -37,8 +37,8 @@ body{
   right: 0;
   bottom: 0;
   mix-blend-mode: color-dodge;
-  animation: lightup 20s linear infinite;
-  filter: brightness(75%);  
+  animation: lightup 50s linear infinite;
+  filter: brightness(70%);  
 }
 
 @keyframes lightup{
