@@ -26,11 +26,11 @@ body{
   content: 'Wish you were here';
   position: absolute;
   mix-blend-mode: difference;
-  filter: blur(3px);
+  filter: blur(2px);
 }
 
 .dodge{
-  background: radial-gradient(circle, white, black 15%) center / 10% 25%;
+  background: radial-gradient(circle, white, black 15%) center / 10% 20%;
   position: absolute;
   top: -100%;
   left: -100%;
@@ -38,7 +38,7 @@ body{
   bottom: 0;
   mix-blend-mode: color-dodge;
   animation: lightup 50s linear infinite;
-  filter: brightness(70%);  
+  filter: brightness(80%);
 }
 
 @keyframes lightup{
